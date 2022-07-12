@@ -8,10 +8,9 @@ function isPalindroma(sillabe){
     for(let i=0;i<parola.length;i++) {
        if(parola[i] != temp[i+1]) {
         alert('NON Palindroma')
-        return;
        } else {
         alert('Palindroma')
-        return;
        }
+       return;
     }
 }
