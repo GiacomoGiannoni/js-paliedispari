@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pari e Dispari</title>
-</head>
-<body>
-    <h1>Gioco del pari e dispari!</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pari e Dispari</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Gioco del pari e dispari!</h1>
+        <h2>Scegli Pari o Dispari!</h2>
+        <div class="container">     
+            <div class="box" id=pari>
+                <button>PARI</button>
+            </div>
 
-    <div class="container">     
-        <div class="box" id=pari>
-            <button>PARI</button>
+            <div class="box" id=dispari>
+                <button>DISPARI</button>
+            </div>
         </div>
 
-        <div class="box" id=dispari>
-             <button>DISPARI</button>
+        <div class="container">
+            <div class="container-text" id=user-text>
+                <p> </p>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="container-text" id=user-text>
-            <p> </p>
+        <div class="container">
+            <div class="container-text" id=end-text>
+                <p> </p>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="container-text" id=end-text>
-            <p> </p>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>

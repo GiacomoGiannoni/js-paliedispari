@@ -35,7 +35,7 @@ function enterNumber(){
 
 function computerNumberGenerator(){
     computerNumber = Math.floor(Math.random() * 5)+1;
-    userTextBox.innerHTML+=" ---- "+computerNumber;
+    userTextBox.innerHTML+=" Vs "+computerNumber;
     console.log(`il computer invece è ${computerPosition}, ha scelto ${computerNumber}`);
     whoIsTheWinner();
 }

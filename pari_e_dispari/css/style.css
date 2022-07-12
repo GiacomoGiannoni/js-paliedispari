@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.box,.container-text{
+    margin:40px;
+    width: 50%;
+    border: 4px outset yellowgreen;
+    border-radius: 20px;
+    padding:20px;
+    text-align: center;
+    background-color: white;
+}
+
+.container-text{
+    border-radius: 10px;
+    border-style: inset;
+}
+
+.box:hover{
+   background-color: red;
+   color:white;
+   cursor: pointer;
+}
